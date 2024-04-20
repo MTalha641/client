@@ -1,0 +1,29 @@
+.explore-nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .explore-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .explore-nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .explore-nav ul li:first-child {
+    margin-right: 40px; /* Increase margin for the "Home" link */
+  }
+  
+  .explore-nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .explore-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
