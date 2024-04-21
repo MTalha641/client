@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './SaifUlMalook.css'
 const SaifUlMalook = () => {
   return (
     <div className="saif-ul-malook-page">
