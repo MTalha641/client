@@ -1,29 +1,21 @@
-.explore-nav {
-    background-color: #333;
-    padding: 10px 0;
-  }
-  
-  .explore-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .explore-nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .explore-nav ul li:first-child {
-    margin-right: 40px; /* Increase margin for the "Home" link */
-  }
-  
-  .explore-nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .explore-nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
+.navbar {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 10px; /* Add padding */
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 10px; /* Add margin between list items */
+}
+
+.navbar ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Link text color */
+}

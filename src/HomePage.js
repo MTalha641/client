@@ -24,16 +24,18 @@ const HomePage = () => {
           <li><Link to="/register">Register</Link></li>
         </ul>
       </nav>
-      <h1>Welcome to My Tourist Website</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Search..."
-          value={searchQuery}
-          onChange={handleSearchChange}
-        />
-        <button type="submit">Search</button>
-      </form>
+      <div className="content">
+        <h1>Discover your next great adventure, become an explorer to get started!</h1>
+        <form onSubmit={handleSubmit} className="search-form">
+          <input
+            type="text"
+            placeholder="Search for your destination..."
+            value={searchQuery}
+            onChange={handleSearchChange}
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
     </div>
   );
 };
