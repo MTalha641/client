@@ -5,8 +5,9 @@ import './ExplorePakistan.css';
 
 const ExplorePakistan = () => {
   return (
+    <>
     <div className="explore-pakistan">
-      <nav className="navbar"> {/* Change class name to navbar */}
+      <nav className="navbar">
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/explore-pakistan#lakes">Lakes</Link></li>
@@ -21,6 +22,7 @@ const ExplorePakistan = () => {
         <LakesSection />
       </div>
     </div>
+    </>
   );
 };
 

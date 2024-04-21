@@ -20,7 +20,7 @@ const HomePage = () => {
       <nav className="navbar">
         <ul>
           <li><Link to="/trips">Trips</Link></li>
-          <li><Link to="/explore">Explore Pakistan</Link></li>
+          <li><Link to="/explore-pakistan">Explore Pakistan</Link></li>
           <li><Link to="/register">Register</Link></li>
         </ul>
       </nav>
