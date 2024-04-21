@@ -5,7 +5,7 @@ import HomePage from './HomePage';
 import ExplorePakistan from './ExplorePakistan';
 import SaifUlMalook from './SaifUlMalook';
 import Attabad from './Attabad'; // Add import for AttabadLake component
-import Shangrila from '/Shangrila';
+import Shangrila from './Shangrila';
 const App = () => {
   return (
     <Router>
